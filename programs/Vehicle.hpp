@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cmath>
-#include"Road-Geometry.h"
+#include"Road-Geometry.hpp"
 
 /*Superclass*/
 class Vehicle{
@@ -11,5 +11,5 @@ class Vehicle{
 			name=0;
 		}
 		int get_name(void){return name;}
-	
+	friend class Interact;
 };

@@ -1,6 +1,6 @@
 #include<iostream>
 #include<cmath>
-#include"Vehicle.h"
+#include"Vehicle.hpp"
 
 /*Sub-class*/
 class Car : public Vehicle{
