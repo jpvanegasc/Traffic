@@ -5,10 +5,23 @@
 /*Sub-class*/
 class Car : public Vehicle{
 	private:
-		int year;
+		int nothing;
 	public:
 		Car(void){
-			year=2019;
+			width = 1; length = 2; v_max = 30;
 		}
-		int get_year(void){return year;}
+		double get_length(void){return length;}
+		int get_nothing(void){return nothing;}
+};
+
+/*Sub-class*/
+class Truck : public Vehicle{
+	private:
+		int nothing;
+	public:
+		Truck(void){
+			width = 1; length = 4; v_max = 20;
+		}
+		double get_length(void){return length;}
+		int get_nothing(void){return nothing;}
 };
