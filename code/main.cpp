@@ -1,11 +1,9 @@
-#include<iostream>
-#include<cmath>
-#include"car.h"
+#include"vehicles.h"
 
 int main(void){
     Car MyCar;
 
-    std::cout << MyCar.get_length() << ' ' << MyCar.get_nothing() << std::endl;
+    std::cout << MyCar.get_length() << std::endl;
 
     return 0;
 }
